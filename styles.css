@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: white;
+    padding: 10px;
+    size: 100;
+    background: rgb(74, 166, 74);
+}
+h1 {
+    font-size: 50px;
+    margin: 0%; /* Possibly get rid of this */
+}
+section.ProjandPic {
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+section.RowTwo {
+    display: flex;
+    flex-direction: row;
+}
+div {
+    background: rgb(219, 218, 218);
+}
+div.Picture {
+    display: block;
+}
+div.ListTitle {
+    margin: 0;
+    width: 100%;
+    height: 184px;
+    background: rgb(219, 218, 218);
+}
+div.GJS {
+    margin: 0;
+    padding: 5px;
+    width: 578px;
+    background: rgb(219, 218, 218);
+}
+div.ContactInfo {
+    display: block;
+    color: black;
+    text-align: right;
+    width: 100%;
+}
+ul.CIList {
+    font-size: 11px;
+    list-style-type: none;
+}
+ul.SchoolProjects {
+    font-size: 15px;
+}
+ul.WS, ul.GE, ul.DES {
+    font-size: 14px;
+}
+li.Desc {
+    display: list-item;
+    list-style-type: circle;
+    list-style-position: outside;
+}
+section.BlueBar {
+    height: 50px;
+    background:#4a4aa6;
+}
+
+section.RedBar {
+    height: 50px;
+    background:#a64a4a;
+}
+section.Info {
+    display: flex;
+    flex-direction: row;
+}
+div.Education, div.Hobbies {
+    width: 100%;
+    text-align: center;
+    height: 250px;
+    border-style: solid;
+    border-width: medium;
+}
+div.Resume {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    line-height: 235px;
+    height: 250px;
+    border-style: solid;
+    border-width: medium;
+}
+ul.hList, ul.eList {
+    font-size: 14px;
+    text-align: left;
+}
+p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+footer {
+    text-align: center;
+}
