@@ -1,0 +1,109 @@
+* {
+	font-family: Sans-Serif;
+}
+
+body {
+	background-color: yellow;
+	background: url('https://media.discordapp.net/attachments/496107000619335681/1227421198162591815/TF2_TheGardener.png?ex=66285812&is=6615e312&hm=b02591b74f4bb89e89e22d059addb7517096c3215e6e987c476015f42a40b7b1&=&format=webp&quality=lossless&width=1016&height=741');
+}
+
+header {
+	padding: 60px;
+	background: url('https://images-ext-1.discordapp.net/external/q7kXlKGJVhyltaLonYrRluJYUjApzi8j7rU-QHsP69Q/https/i.redd.it/zj7m5n0a2xx91.jpg?format=webp&width=735&height=741');
+	background-size: contain;
+
+	background-position-x: center !important;
+}
+
+header h1 {
+	color: white;
+	letter-spacing: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow:
+		2px -2px black,
+		-2px -2px black,
+		2px 2px black,
+		-2px 2px black,
+		1.41px -1.41px black,
+		-1.41px -1.41px black,
+		1.41px 1.41px black,
+		-1.41px 1.41px black;
+
+	font-size: 76px;
+}
+
+.ProjandPic {
+	padding: 40px 20px 0;
+	background-clip: padding-box;
+	background-color: rgb(219, 218, 218);
+}
+
+.List-Title {
+}
+
+.List-Title ul {
+}
+
+.Picture {
+	position: relative;
+}
+
+.Picture img {
+	//border: ;
+}
+
+.RowTwo {
+	padding: 0 20px;
+	background-clip: padding-box;
+	background: rgb(219, 218, 218);
+}
+
+.Info {
+	border: none !important;
+}
+
+.BlueBar {
+	padding: 50px 0;
+	background: url(https://lebroq.github.io/Brock_img.jpg) !important;
+	background-position-x: center !important;
+
+	transform: rotateY(0deg);
+	transition:
+		transform 0.5s,
+		background 0.1s;
+	cursor: alias;
+}
+
+.BlueBar:hover {
+	background: linear-gradient(to right, #2c2c4080, #2c2c4080),
+		url(https://lebroq.github.io/Brock_img.jpg) !important;
+	background-position-x: center !important;
+}
+
+.BlueBar p {
+	font-family: fantasy;
+	background: linear-gradient(to right, #1c1c40e0, #4a4aa6, #1c1c40e0);
+	user-select: none;
+}
+
+footer {
+	background-color: #252525;
+	padding: 40px 0;
+}
+
+footer a {
+	background-color: #4aa64a;
+	transition: 0.1s ease-in;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin: 0 10px;
+}
+
+footer a:hover,
+footer a:active,
+footer a:focus {
+	background-color: #6ac66a !important;
+}
