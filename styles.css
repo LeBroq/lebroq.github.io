@@ -6,10 +6,10 @@ body{
     background: #01303f;
     display: flex;
     position: fixed;
-    margin-left: 200px;
     height: 45px;
     width: 2000px;
     position: sticky;
+    color: #ffffff;
 }
 
 .sidenav {
@@ -17,9 +17,9 @@ body{
     width: 200px;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 5%;
     left: 0;
-    background-color: #2980B9;
+    background-color: #0a4255;
     overflow-x: hidden;
     padding-top: 0px;
 }
@@ -38,7 +38,7 @@ body{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     padding-left: 40px;
-    font-size: 15px;
+    font-size: 17px;
     color: #FFFFFF;
     display: block;
 }
@@ -49,4 +49,6 @@ body{
 
 .main {
     margin-left: 200px;
+    background-color: #9a9a9a;
+    height: 100%;
 }
