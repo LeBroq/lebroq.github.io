@@ -1,34 +1,39 @@
+@font-face {
+    font-family: Atmospheric;
+    src: url(Atmospheric-rg4aL.ttf);
+}
+
 body{
     margin: 0;
 }
 
 .banner {
-    background: #01303f;
-    display: flex;
-    position: fixed;
-    height: 45px;
-    width: 2000px;
-    position: sticky;
+    background: #012f3f00;
+    display: inline-flex;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    overflow-x: hidden;
     color: #ffffff;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .sidenav {
+    top: 0;
     height: 100%;
     width: 200px;
     position: fixed;
     z-index: 1;
-    top: 5%;
-    left: 0;
     background-color: #0a4255;
     overflow-x: hidden;
-    padding-top: 0px;
 }
 
 .sidenav-text {
     top: 0;
     left: 0;
     padding: 6px 8px 6px 16px;
-    text-decoration: none;
+    text-align: center;
     font-size: 20px;
     color: #FFFFFF;
     display: block;
@@ -37,7 +42,7 @@ body{
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    padding-left: 40px;
+    text-align: left;
     font-size: 17px;
     color: #FFFFFF;
     display: block;
@@ -45,10 +50,120 @@ body{
 
 .sidenav a:hover {
     color: #f1f1f1;
+    background-color: #072b37;
 }
 
 .main {
     margin-left: 200px;
-    background-color: #9a9a9a;
+    /*background-color: #9a9a9a;*/
     height: 100%;
+    padding: 50px 1.5em 3em 1.5em;
+}
+
+h1 {
+    font-family: Atmospheric;
+    font-size: 70px;
+    margin: 0px;
+    color: #072b37;
+}
+
+.brock_pittman {
+    padding: 4em 1.5em 4em 1.5em;
+    /*height: 1000px;*/
+}
+
+.desc {
+    display: inline-block;
+    vertical-align: top;
+    padding: 100px;
+}
+.role {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.name_plus_img {
+    display: inline-flex;
+    flex: stretch;
+}
+
+.contact_list {
+    list-style: none;
+}
+
+.arena {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 3em;
+}
+
+.available {
+    margin-top: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.school_header {
+    margin-bottom: 0;
+}
+
+.github_link {
+    order: 2;
+}
+
+.linkedin_link {
+    order: 3;
+    padding-right: 15px;
+}
+
+.about_me {
+    order: 2;
+}
+
+.projects {
+    order: 1;
+}
+
+.separate {
+    order: 2;
+    color: #000000;
+}
+
+.arena_text {
+    width: 800px;
+}
+
+.arena_img {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.kaching {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.kaching_text {
+    width: 600px;
+}
+
+.kaching_img {
+    padding-top: 50px;
+}
+
+.chipmunk_defense {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.chipmunk_text {
+    width: 800px;
+}
+
+.chipmunk_img {
+    padding-top: 50px;
 }

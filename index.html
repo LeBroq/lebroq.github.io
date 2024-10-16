@@ -4,27 +4,138 @@
         <link rel="stylesheet" href="styles.css">
         <title>Brock Pittman</title>
         <meta charset="utf-8">
+        <script src="javascript.js"></script>
     </head>
     <body>
         <div class="banner">
-            Yuh
+            <div class="projects"><a href="index.html">Projects</a></div>
+            <div class="separate">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</div>
+            <div class="about_me"><a href="about.html">About Me</a></div>
+            <div class="separate">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</div>
+            <div class="github_link"><a href="https://github.com/LeBroq" target="_blank">GitHub</a></div>
+            <div class="separate">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</div>
+            <div class="linkedin_link"><a href="https://www.linkedin.com/in/brock14/" target="_blank">LinkedIn</a></div>
         </div>
         <div class="sidenav">
-            <div class="sidenav-text">
-                Table Of Contents
-            </div>
-            <a href="#">About Me</a>
-            <a href="#">School Projects</a>
-            <a href="#">Game Jams</a>
-            <a href="#">Personal Projects</a>
-            <a href="#">Contact Information</a>
+            <a href="#Contact_Information">Contact Information</a>
+            <a href="#School_Projects">School Projects</a>
+            <a href="#Game_Jams">Game Jams</a>
+            <a href="#Personal_Projects">Personal Projects</a>
         </div>
         <div class="main">
-            <div id="About Me">
-                About Me
+            <div class="brock_pittman">
+                <div class="name_plus_img">
+                    <div class="desc">
+                        <h1>Brock<br>Pittman</h1>
+                        <p class="role">Game Developer & Software Engineer</p>
+                    </div>
+                    <div class="brock_img">
+                        <img src="Brock_img.jpg" width="500px" height="100%">
+                    </div>
+                </div>
             </div>
-            <div id="School Projects">
-                School Projects
+            <div class="contact_info">
+                <h2 id="Contact_Information">Contact Information</h2>
+                <p>
+                    <ul class="contact_list">
+                        <li><strong>Email</strong>: bpit7654@gmail.com</li>
+                        <li><strong>Phone #</strong>: (984) 226-4952</li>
+                        <li><strong>City/State</strong>: Raleigh, North Carolina</li>
+                        <li><strong>Discord</strong>: _triggerpunch</li>
+                    </ul>
+                </p>
+            </div>
+            <div id="School_Projects" class="school_proj">
+                <h2 class="school_header">School Projects</h2>
+                <p class="available"><i>Code available upon request</i></p>
+                <div class="game_engine">
+                    <h3>Game Engine (C++, SFML, ZMQ)</h3>
+                    <p>
+                        Game Engine made from scratch for CSC481 (Game Engine Foundations)
+                        <ul>
+                            <li>First program made in C++</li>
+                            <li>Made a hybrid object model between a component-based and object-based model</li>
+                            <li>Implemented event calling, scripting, and client-server connections (REQ-REP)</li>
+                            <li>Handles safe client disconnects and any number of clients</li>
+                            <li>Created two separate games to present the engines extensibility and generalizability</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="coffee_maker">
+                    <h3>Coffee Maker Web Application (Java, MySQL, REST API, AngularJS, HTML, CSS, & Maven)</h3>
+                    <p>
+                        Coffee Maker styled web application made in a team of 6 for CSC326 (Software Engineering) meant to represent a program for making coffee
+                        <ul>
+                            <li>Utilized common software engineering design principles and techniques</li>
+                            <li>Implemented the API layer of the system and assisted in designing and debugging backend code</li>
+                            <li>Attempted to implement third-party security for loging in and out of our system, however this ended up not working and was scrapped from the final product</li>
+                            <li>Utilized GitHub for version control and used GitHub actions (Issues, PR, etc.) to facilitate safe development practices</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div id="Game_Jams" class="game_jams">
+                <h2>Game Jams</h2>
+                <div class="kaching">
+                    <div class="kaching_text">
+                        <h3>Kaching (Godot 4)</h3>
+                        <p>
+                            NCSU Video Game Development Club Game Jam Project with a team of 4
+                            <ul>
+                                <li>Assisted in designing key core mechanics (shooting coins from gun)</li>
+                                <li>Implemented initial enemy functionality and AI</li>
+                                <li>First game made with a Game Engine</li>
+                                <li>Utilized GitHub for Version Control</li>
+                            </ul>
+                            <br><br><a href="https://rakthalekk.itch.io/kaching" target="_blank" id="kaching_itch">Itch.io Page</a>
+                        </p>
+                    </div>
+                    <div class="kaching_img">
+                        <img src="kaching.jpeg" width="277px" height="156px">
+                    </div>
+                </div>
+                <div class="chipmunk_defense">
+                    <div class="chipmunk_text">
+                        <h3>Chipmunk Defense (Godot 4)</h3>
+                        <p>
+                            Ludum Dare 56 Compo (independent) Game
+                            <ul>
+                                <li>Designed a simple and fun game loop to be implemented in a two day period based on the theme: Tiny Creatures</li>
+                                <li>Created 2D sprites to represent elements in the game world</li>
+                                <li>Implemented simple 2D platformer inputs and gameplay with some added functionality for climbing</li>
+                                <li>Utilized Godot's UI Nodes to create UI elements and a Home screen</li>
+                            </ul>
+                            <br><br><a href="https://broq.itch.io/chipmunk-defense" target="_blank" id="chipmunk_itch">Itch.io Page</a>
+                        </p>
+                    </div>
+                    <div class="chipmunk_img">
+                        <img src="chipmunk.jpeg" width="350px" height="200px">
+                    </div>
+                </div>
+            </div>
+            <div id="Personal_Projects" class="personal_proj">
+                <h2>Personal Projects</h2>
+                <div class="arena">
+                    <div class="arena_text">
+                        <h3>1v1 Arena (UEFN/Fortnite Creative)</h3>
+                        <p>
+                            Personal duo project to test UEFN and technologies associated
+                            <ul>
+                                <li>Acted as lead level designer for implementing visual aspects, such as arena areas and forcefields</li>
+                                <li>Assisted in debugging and implementing Code</li>
+                                <li>Utilized and learned Epic Game's Verse coding language</li>
+                                <li>Created dynamic gameplay mechanics, such as entering a queue, using UEFN's Creative Devices</li>
+                                <li>Debugged functionality utilizing Fortnite Creative mode</li>
+                                <li>Organized playtests to ensure the game was fun, interactive, and functional</li>
+                                <li>Utilized UEFN's built in version control for sharing changes</li>
+                            </ul>
+                            <br><br>Island Code: <a href="https://www.fortnite.com/@smoore/8178-5137-7526" target="_blank" id="island_code">8178-5137-7526</a>
+                        </p>
+                    </div>
+                    <div class="arena_img">
+                        <img src="1v1arena.png" width="277px" height="156px">
+                    </div>
+                </div>
             </div>
         </div>
     </body>
