@@ -96,7 +96,6 @@ h1 {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-left: 3em;
 }
 
 .available {
@@ -106,6 +105,10 @@ h1 {
 }
 
 .school_header {
+    margin-bottom: 0;
+}
+
+.in_progress {
     margin-bottom: 0;
 }
 
@@ -132,7 +135,7 @@ h1 {
 }
 
 .arena_text {
-    width: 800px;
+    width: 750px;
 }
 
 .arena_img {
@@ -147,7 +150,7 @@ h1 {
 }
 
 .kaching_text {
-    width: 600px;
+    width: 800px;
 }
 
 .kaching_img {

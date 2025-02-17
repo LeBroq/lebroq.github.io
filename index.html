@@ -8,10 +8,6 @@
     </head>
     <body>
         <div class="banner">
-            <div class="projects"><a href="index.html">Projects</a></div>
-            <div class="separate">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</div>
-            <div class="about_me"><a href="about.html">About Me</a></div>
-            <div class="separate">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</div>
             <div class="github_link"><a href="https://github.com/LeBroq" target="_blank">GitHub</a></div>
             <div class="separate">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</div>
             <div class="linkedin_link"><a href="https://www.linkedin.com/in/brock14/" target="_blank">LinkedIn</a></div>
@@ -35,7 +31,7 @@
                 </div>
             </div>
             <div class="contact_info">
-                <h2 id="Contact_Information">Contact Information</h2>
+                <h2 id="Contact_Information" style="font-size:30px;">Contact Information</h2>
                 <p>
                     <ul class="contact_list">
                         <li><strong>Email</strong>: bpit7654@gmail.com</li>
@@ -46,7 +42,7 @@
                 </p>
             </div>
             <div id="School_Projects" class="school_proj">
-                <h2 class="school_header">School Projects</h2>
+                <h2 class="school_header" style="font-size:30px;"><br>School Projects</h2>
                 <p class="available"><i>Code available upon request</i></p>
                 <div class="game_engine">
                     <h3>Game Engine (C++, SFML, ZMQ)</h3>
@@ -73,9 +69,27 @@
                         </ul>
                     </p>
                 </div>
+                <div class="ardenfell">
+                    <div class="ardenfell_text">
+                        <h3 class="in_progress">Ardenfell (Unreal Engine 5, GAS)</h3>
+                        <p class="available"><i>In Progress (Implementation Phase)</i></p>
+                        <p>
+                            Group project for Independent study class (CSC498 @ North Carolina State University)
+                            <ul>
+                                <li>Third-person mutilplayer souls-like</li>
+                                <li>Play as a knightly Gnome to reclaim your tree-kingdom of Ardenfell</li>
+                                <li>Utilizes the Gameplay Ability System plugin to help implement character abilties and network/replication</li>
+                                <li>Designed character abilities, theming, enemies, and a partial story</li>
+                                <li>Implemented a camera system to be utilized by the player character</li>
+                                <li>Networked to allow local network connections</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
             </div>
             <div id="Game_Jams" class="game_jams">
-                <h2>Game Jams</h2>
+                <p><br></p>
+                <h2 style="font-size:30px; margin-top:0px; margin-bottom:0px;">Game Jams</h2>
                 <div class="kaching">
                     <div class="kaching_text">
                         <h3>Kaching (Godot 4)</h3>
@@ -87,11 +101,11 @@
                                 <li>First game made with a Game Engine</li>
                                 <li>Utilized GitHub for Version Control</li>
                             </ul>
-                            <br><br><a href="https://rakthalekk.itch.io/kaching" target="_blank" id="kaching_itch">Itch.io Page</a>
+                            <br><a href="https://rakthalekk.itch.io/kaching" target="_blank" id="kaching_itch">Itch.io Page</a>
                         </p>
                     </div>
                     <div class="kaching_img">
-                        <img src="kaching.jpeg" width="277px" height="156px">
+                        <img src="kaching.jpeg" width="350px" height="200px">
                     </div>
                 </div>
                 <div class="chipmunk_defense">
@@ -105,21 +119,34 @@
                                 <li>Implemented simple 2D platformer inputs and gameplay with some added functionality for climbing</li>
                                 <li>Utilized Godot's UI Nodes to create UI elements and a Home screen</li>
                             </ul>
-                            <br><br><a href="https://broq.itch.io/chipmunk-defense" target="_blank" id="chipmunk_itch">Itch.io Page</a>
+                            <br><a href="https://broq.itch.io/chipmunk-defense" target="_blank" id="chipmunk_itch">Itch.io Page</a>
                         </p>
                     </div>
                     <div class="chipmunk_img">
                         <img src="chipmunk.jpeg" width="350px" height="200px">
                     </div>
                 </div>
+                <div class="triangle_game_jam">
+                    <div class="tgj_text">
+                        <h3 class="in_progress">Triangle Game Jam Submission (TBD)</h3>
+                        <p class="available"><i>Upcoming Game Jam (Begins February 21st)</i></p>
+                        <p>
+                            Triangle Game Jam Game
+                            <ul>
+                                <li>Collaborative game jam between clubs at North Carolina State University, Duke University, and University of North Carolina at Chapel Hill</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
             </div>
             <div id="Personal_Projects" class="personal_proj">
-                <h2>Personal Projects</h2>
+                <p><br></p>
+                <h2 style="font-size:30px; margin-top:0px; margin-bottom:0px;">Personal Projects</h2>
                 <div class="arena">
                     <div class="arena_text">
                         <h3>1v1 Arena (UEFN/Fortnite Creative)</h3>
                         <p>
-                            Personal duo project to test UEFN and technologies associated
+                            Duo project to test UEFN and associated technologies
                             <ul>
                                 <li>Acted as lead level designer for implementing visual aspects, such as arena areas and forcefields</li>
                                 <li>Assisted in debugging and implementing Code</li>
@@ -129,12 +156,40 @@
                                 <li>Organized playtests to ensure the game was fun, interactive, and functional</li>
                                 <li>Utilized UEFN's built in version control for sharing changes</li>
                             </ul>
-                            <br><br>Island Code: <a href="https://www.fortnite.com/@smoore/8178-5137-7526" target="_blank" id="island_code">8178-5137-7526</a>
+                            <br>Island Code: <a href="https://www.fortnite.com/@smoore/8178-5137-7526" target="_blank" id="island_code">8178-5137-7526</a>
                         </p>
                     </div>
                     <div class="arena_img">
-                        <img src="1v1arena.png" width="277px" height="156px">
+                        <img src="1v1arena.png" width="350px" height="200px">
                     </div>
+            </div>
+            <div class="the_dark_wood">
+                <div class="dark_wood_text">
+                    <h3 class="in_progress">The Dark Wood (Godot 4 - 3D)</h3>
+                    <p class="available"><i>In Progress (Design Phase)</i></p>
+                    <p>
+                        Duo project 
+                        <ul>
+                            <li>First person horror</li>
+                            <li>Working title</li>
+                            <li>Attempt to create a game with little to no light sources</li>
+                            <li>Brainstorming different ways to "see" the environment</li>
+                            <li>Designing small objectives to complete</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="katayagi">
+                <div class="katayagi_text">
+                    <h3 class="in_progress">Katayagi (Unreal Engine 5, GAS)</h3>
+                    <p class="available"><i>In Progress (Design Phase)</i></p>
+                    <p>
+                        Duo project utilizing Unreal Engines Gameplay Ability System (GAS) plugin
+                        <ul>
+                            <li>2.5D Metroidvania with combo style elements</li>
+                            <li>Utilizes the Gameplay Ability System plugin to help implement character abilties and interactions</li>
+                        </ul>
+                    </p>
                 </div>
             </div>
         </div>
