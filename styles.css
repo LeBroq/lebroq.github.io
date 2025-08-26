@@ -32,6 +32,7 @@ body{
 
 .banner_button {
     text-decoration: none;
+    color: #101723;
     font-family: "jersey";
 }
 
@@ -118,8 +119,11 @@ body{
 .project_lighter {
     margin: auto;
     height: auto;
+    width: 100%;
     background: #CCEAFF;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project_text {
