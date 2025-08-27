@@ -107,25 +107,24 @@ body{
 }
 
 .project_darker {
-    margin: auto;
-    height: auto;
     width: 100%;
     background: #85BDDB;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .project_lighter {
-    margin: auto;
-    height: auto;
     width: 100%;
     background: #CCEAFF;
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+ul {
+    padding-left: 20px;
 }
 
 .project_images {
-    text-align: center;
+    width: 20%;
+    height: 100%;
 }
