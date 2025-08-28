@@ -130,3 +130,14 @@ ul {
     width: 20%;
     height: 100%;
 }
+
+.bottom_bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  text-align: center; 
+  z-index: 1000;
+}
