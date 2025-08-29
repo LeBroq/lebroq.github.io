@@ -8,231 +8,28 @@
     </head>
     <body>
         <div class="banner">
-            <div class="github_link"><a href="https://github.com/LeBroq" target="_blank">GitHub</a></div>
-            <div class="separate">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</div>
-            <div class="linkedin_link"><a href="https://www.linkedin.com/in/brock14/" target="_blank">LinkedIn</a></div>
+            <div class="banner_item"><a href="index.html" class="banner_button">HOME</a></div>
+            <div class="banner_item"><a href="projects.html" class="banner_button">PROJECTS</a></div>
+            <div class="banner_item"><a href="resume.html" class="banner_button">RESUME/CONTACT</a></div>
         </div>
-        <div class="sidenav">
-            <a href="#Contact_Information">Contact Information</a>
-            <a href="#School_Projects">School Projects</a>
-            <a href="#Game_Jams">Game Jams</a>
-            <a href="#Personal_Projects">Personal Projects</a>
+        <div class="base">
+            <div class="homeLeft">
+                <div class="homeLeftLeft">
+                    <div class="home_name">Brock Pittman</div>
+                    <div class="home_title">Game Developer & Software Engineer</div>
+                    <div class="brock_image"><img src="Assets\brock.png" height=50% width=50%></img></div>
+                </div>
+                <div class="homeLeftRight">
+                    <div class="home_welcome">Welcome!</div>
+                    <div class="home_introduction">
+                        Hello everyone! I'm Brock Pittman, an aspiring game developer and Software Programmer. I graduated from North Carolina State University with a Bachelor of Science in Computer Science with a concentration in Game Development. Throughout college I had worked on many small projects where I have honed my skills related to software development and game design. Currently, while on the job search, I have been delving into other aspects of game development besides programming to help better my understanding of what goes into fully making a game, such as art, animation, and SFX. My current major project is "The Dark Forest" which attempts to use sound as the main means of player navigation. If you have any questions or wish to learn more about my projects, feel free to reach out!
+                    </div>
+                    <a class="resume_button" href="resume.html">Check out my Resume</a>
+                </div>
+            </div>
         </div>
-        <div class="main">
-            <div class="brock_pittman">
-                <div class="name_plus_img">
-                    <div class="desc">
-                        <h1>Brock<br>Pittman</h1>
-                        <p class="role">Game Developer & Software Engineer</p>
-                    </div>
-                    <div class="brock_img">
-                        <img src="Brock_img.jpg" width="500px" height="100%">
-                    </div>
-                </div>
-            </div>
-            <div class="contact_info">
-                <h2 id="Contact_Information" style="font-size:30px;">Contact Information</h2>
-                <p>
-                    <ul class="contact_list">
-                        <li><strong>Email</strong>: bpit7654@gmail.com</li>
-                        <li><strong>Phone #</strong>: (984) 226-4952</li>
-                        <li><strong>City/State</strong>: Raleigh, North Carolina</li>
-                        <li><strong>Discord</strong>: _triggerpunch</li>
-                    </ul>
-                </p>
-            </div>
-            <div id="School_Projects" class="school_proj">
-                <h2 class="school_header" style="font-size:30px;"><br>School Projects</h2>
-                <p class="available"><i>Code available upon request</i></p>
-                <div class="game_engine">
-                    <h3>Game Engine (C++, SFML, ZMQ)</h3>
-                    <p>
-                        Game Engine made from scratch for Game Engine Foundations (CSC481)
-                        <ul>
-                            <li>First program made in C++</li>
-                            <li>Made a hybrid object model between a component-based and object-based model</li>
-                            <li>Implemented event calling, scripting, and client-server connections (REQ-REP)</li>
-                            <li>Handles safe client disconnects and any number of clients</li>
-                            <li>Created two separate games to present the engines extensibility and generalizability</li>
-                        </ul>
-                    </p>
-                </div>
-                <div class="coffee_maker">
-                    <h3>Coffee Maker Web Application (Java, MySQL, REST API, AngularJS, HTML, CSS, & Maven)</h3>
-                    <p>
-                        Coffee Maker styled web application made in a team of 6 for CSC326 (Software Engineering @ North Carolina State University) meant to represent a program for making coffee
-                        <ul>
-                            <li>Utilized common software engineering design principles and techniques</li>
-                            <li>Implemented the API layer of the system and assisted in designing and debugging backend code</li>
-                            <li>Attempted to implement third-party security for loging in and out of our system, however this ended up not working and was scrapped from the final product</li>
-                            <li>Utilized GitHub for version control and used GitHub actions (Issues, PR, etc.) to facilitate safe development practices</li>
-                        </ul>
-                    </p>
-                </div>
-                <div class="galaxian">
-                    <h3>3D Galaxian Game (Unreal Engine 5)</h3>
-                    <p>
-                        3D Galaxian game made in a team of 4 for Computer Graphics (CSC 461 @ North Carolina State University)
-                        <ul>
-                            <li>Implemented Galaxian in a 2D environment</li>
-                            <li>Utilized behavior trees for enemy behavior</li>
-                            <li>Mimicked regular galaxian enemy behavior by giving each enemy different behavior</li>
-                        </ul>
-                        <br><a href="https://gjgamejam.itch.io/galaxian3d" target="_blank" id="galaxian_itch">Itch.io Page</a>
-                    </p>
-                </div>
-                <div class="sim-builder">
-                    <h3>Sim-builder (Godot 4)</h3>
-                    <p>
-                        Simulation creation tool made in a team of 5 for Senior Design (CSC 492 @ North Carolina State University)
-                        <ul>
-                            <li>Implemented a simulation builder tool that utilizes Godot plugins to change the Godot editors layout</li>
-                            <li>Created functionality for the simulation to read the data in the tool when the godot project is built to produce the simulation</li>
-                            <li>Designed and implemented ways for the user to add images (backgrounds or diagrams) to the simulations</li>
-                            <li>Initially made for the purpose of creating simulations for classes, but considered generalizability while designing</li>
-                        </ul>
-                    </p>
-                </div>
-                <div class="ardenfell">
-                    <div class="ardenfell_text">
-                        <h3 class="in_progress">Ardenfell (Unreal Engine 5, GAS)</h3>
-                        <p class="available"><i>In Progress (Implementation Phase)</i></p>
-                        <p>
-                            Group project for Independent study class (CSC498 @ North Carolina State University)
-                            <ul>
-                                <li>Third-person mutilplayer souls-like</li>
-                                <li>Play as a knightly Gnome to reclaim your tree-kingdom of Ardenfell</li>
-                                <li>Utilizes the Gameplay Ability System plugin to help implement character abilties and network/replication</li>
-                                <li>Designed character abilities, theming, enemies, and a partial story</li>
-                                <li>Implemented a camera system to be utilized by the player character</li>
-                                <li>Networked to allow local network connections</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div id="Game_Jams" class="game_jams">
-                <p><br></p>
-                <h2 style="font-size:30px; margin-top:0px; margin-bottom:0px;">Game Jams</h2>
-                <div class="kaching">
-                    <div class="kaching_text">
-                        <h3>Kaching (Godot 4)</h3>
-                        <p>
-                            NCSU Video Game Development Club Game Jam Project with a team of 4
-                            <ul>
-                                <li>Theme: Modifications</li>
-                                <li>diversifiers (Sub-themes): Spare Change, Golden Dragon, and Ruinous</li>
-                                <li>Assisted in designing key core mechanics (shooting coins from gun)</li>
-                                <li>Implemented initial enemy functionality and AI</li>
-                                <li>First game made with a Game Engine</li>
-                                <li>Utilized GitHub for Version Control</li>
-                            </ul>
-                            <br><a href="https://rakthalekk.itch.io/kaching" target="_blank" id="kaching_itch">Itch.io Page</a>
-                        </p>
-                    </div>
-                    <div class="kaching_img">
-                        <img src="kaching.jpeg" width="350px" height="200px">
-                    </div>
-                </div>
-                <div class="chipmunk_defense">
-                    <div class="chipmunk_text">
-                        <h3>Chipmunk Defense (Godot 4)</h3>
-                        <p>
-                            Ludum Dare 56 Compo (independent) Game
-                            <ul>
-                                <li>Designed a simple and fun game loop to be implemented in a two day period based on the theme: Tiny Creatures</li>
-                                <li>Created 2D sprites to represent elements in the game world</li>
-                                <li>Implemented simple 2D platformer inputs and gameplay with some added functionality for climbing</li>
-                                <li>Utilized Godot's UI Nodes to create UI elements and a Home screen</li>
-                            </ul>
-                            <br><a href="https://broq.itch.io/chipmunk-defense" target="_blank" id="chipmunk_itch">Itch.io Page</a>
-                        </p>
-                    </div>
-                    <div class="chipmunk_img">
-                        <img src="chipmunk.jpeg" width="350px" height="200px">
-                    </div>
-                </div>
-                <div class="the_lost_shadow">
-                    <div class="the_lost_shadow">
-                        <h3>The Lost Shadow (Unreal Engine 5)</h3>
-                        <p>
-                            NCSU Video Game Development Club Game Jam Project with a team of 4
-                            <ul>
-                                <li>Theme: Dynamic Duo</li>
-                                <li>Diversifiers (Sub-themes): Negative Space</li>
-                                <li>Designed a duel system game where shadows produced by objects your character can move produces platforms for your characters own shadow to jump on</li>
-                                <li>Created 2D sprites to represent elements in the game world</li>
-                            </ul>
-                            <br><a href="https://themodernsmoore.itch.io/lost-shadow" target="_blank" id="shadow_itch">Itch.io Page</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="triangle_game_jam">
-                    <div class="tgj_text">
-                        <h3 class="in_progress">Triangle Game Jam Submission (TBD)</h3>
-                        <p class="available"><i>Upcoming Game Jam (Begins February 21st)</i></p>
-                        <p>
-                            Triangle Game Jam Game
-                            <ul>
-                                <li>Collaborative game jam between clubs at North Carolina State University, Duke University, and University of North Carolina at Chapel Hill</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div id="Personal_Projects" class="personal_proj">
-                <p><br></p>
-                <h2 style="font-size:30px; margin-top:0px; margin-bottom:0px;">Personal Projects</h2>
-                <div class="arena">
-                    <div class="arena_text">
-                        <h3>1v1 Arena (UEFN/Fortnite Creative)</h3>
-                        <p>
-                            Duo project to test UEFN and associated technologies
-                            <ul>
-                                <li>Acted as lead level designer for implementing visual aspects, such as arena areas and forcefields</li>
-                                <li>Assisted in debugging and implementing Code</li>
-                                <li>Utilized and learned Epic Game's Verse coding language</li>
-                                <li>Created dynamic gameplay mechanics, such as entering a queue, using UEFN's Creative Devices</li>
-                                <li>Debugged functionality utilizing Fortnite Creative mode</li>
-                                <li>Organized playtests to ensure the game was fun, interactive, and functional</li>
-                                <li>Utilized UEFN's built in version control for sharing changes</li>
-                            </ul>
-                            <br>Island Code: <a href="https://www.fortnite.com/@smoore/8178-5137-7526" target="_blank" id="island_code">8178-5137-7526</a>
-                        </p>
-                    </div>
-                    <div class="arena_img">
-                        <img src="1v1arena.png" width="350px" height="200px">
-                    </div>
-            </div>
-            <div class="the_dark_wood">
-                <div class="dark_wood_text">
-                    <h3 class="in_progress">The Dark Wood (Godot 4 - 3D)</h3>
-                    <p class="available"><i>In Progress (Design Phase)</i></p>
-                    <p>
-                        Duo project 
-                        <ul>
-                            <li>First person horror</li>
-                            <li>Working title</li>
-                            <li>Attempt to create a game with little to no light sources</li>
-                            <li>Brainstorming different ways to "see" the environment</li>
-                            <li>Designing small objectives to complete</li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-            <div class="katayagi">
-                <div class="katayagi_text">
-                    <h3 class="in_progress">Katayagi (Unreal Engine 5, GAS)</h3>
-                    <p class="available"><i>In Progress (Design Phase)</i></p>
-                    <p>
-                        Duo project utilizing Unreal Engines Gameplay Ability System (GAS) plugin
-                        <ul>
-                            <li>2.5D Metroidvania with combo style elements</li>
-                            <li>Utilizes the Gameplay Ability System plugin to help implement character abilties and interactions</li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
+        <div class="bottom_bar">
+            Email: bpit7654@gmail.com Phone #: 984-226-4952 City/State: Raleigh, North Carolina Discord: _triggerpunch
         </div>
     </body>
 </html>
