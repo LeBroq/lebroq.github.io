@@ -67,6 +67,11 @@ body{
     font-size: 40px;
 }
 
+.home_introduction {
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+
 .resume_button {
     background: #FA8500;
     color: #F5F5FF;
@@ -166,4 +171,13 @@ ul {
     font-family: "jersey";
     font-size: 50px;
     background: #CCEAFF;
+}
+
+.contact {
+    text-align: left;
+}
+
+.contact_information {
+    font-size: 22px;
+    font-family: "jersey";
 }
