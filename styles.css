@@ -3,22 +3,19 @@
     src: url(Jersey10-Regular.ttf);
 }
 
-* {
+body{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    height: 100dvh;
-    display: flex;
-    flex-direction: column;
-}
-
 .banner {
     display: flex;
     background: #FA8500;
-    height: 4%;
+    height: auto;
     align-items: center;
     gap: 50px;
     font-size: 40px;
@@ -37,6 +34,7 @@ body{
 }
 
 .base {
+    padding: auto;
     background: #162C46;
     display: flex;
     flex: 1;
@@ -149,4 +147,23 @@ ul {
 .vid {
     padding-left: 100px;
     padding-top: 10px;
+}
+
+.frame_container {
+    width: 100%;
+}
+
+.resume_frame {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    width: 40%;
+}
+
+.bar {
+    text-align: center;
+    font-family: "jersey";
+    font-size: 50px;
+    background: #CCEAFF;
 }
