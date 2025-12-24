@@ -33,137 +33,198 @@ body{
     font-family: "jersey";
 }
 
-.base {
-    padding: auto;
-    background: #162C46;
-    display: flex;
-    flex: 1;
+@media (min-width: 600px) {
+    .base {
+        padding: auto;
+        background: #162C46;
+        display: flex;
+        flex: 1;
+    }
+
+    .homeLeft {
+        background: #F5F5FF;
+        display: flex;
+        margin: 125px 50px 125px 50px;
+        flex: 1;
+        border-radius: 16px;
+        align-items: center;
+        text-align: center;
+        font-family: "jersey";
+    }
+
+    .homeLeftLeft {
+        padding: 0px;
+        width: 40%;
+        font-size: 30px;
+    }
+
+    .homeLeftRight {
+        padding: 0px 70px 20px 20px;
+        width: 60%;
+        font-size: 22px;
+    }
+
+    .home_welcome {
+        font-size: 40px;
+    }
+
+    .resume_button {
+        background: #FA8500;
+        color: #F5F5FF;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        font-size: 22px;
+        padding: 10px 20px;
+        margin: 10px 2px; 
+        cursor: pointer;
+        border-radius: 16px;
+
+        -webkit-transition: background-color 0.5s;
+        -moz-transition:    background-color 0.5s;
+        -ms-transition:     background-color 0.5s;
+        -o-transition:      background-color 0.5s;
+        transition:         background-color 0.5s;
+    }
+
+    .resume_button:hover {
+        background: #162C46;
+    }
+
+    .brock_image {
+        align-items: center;
+    }
+
+    .homeRight {
+        background: #162C46;
+        flex: 1;
+    }
+
+    .projects_base {
+        padding: auto;
+        background: #162C46;
+        flex: 1;
+        align-items: center;
+    }
+
+    .project_darker {
+        width: 100%;
+        background: #85BDDB;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project_lighter {
+        width: 100%;
+        background: #CCEAFF;
+        display: flex;
+        justify-content: center;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    .project_images {
+        width: 20%;
+        height: 100%;
+    }
+
+    .bottom_bar {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        padding: 15px 0;
+        text-align: center; 
+        z-index: 1000;
+    }
+
+    .project_text {
+        width: 486.04px;
+    }
+
+    .vid {
+        padding-left: 100px;
+        padding-top: 10px;
+    }
+
+    .frame_container {
+        width: 100%;
+    }
+
+    .resume_frame {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 1000px;
+        width: 40%;
+    }
+
+    .bar {
+        text-align: center;
+        font-family: "jersey";
+        font-size: 50px;
+        background: #CCEAFF;
+    }
 }
 
-.homeLeft {
-    background: #F5F5FF;
-    display: flex;
-    margin: 125px 50px 125px 50px;
-    flex: 1;
-    border-radius: 16px;
-    align-items: center;
-    text-align: center;
-    font-family: "jersey";
-}
+@media (max-width: 600px) {
+    .base {
+        width: 100%;
+        background-color: red;
+        padding: none;
+        flex: none;
+    }
 
-.homeLeftLeft {
-    padding: 0px;
-    width: 40%;
-    font-size: 30px;
-}
+    .home_title {
+        margin: 0px 20px 0px 20px;
+    }
 
-.homeLeftRight {
-    padding: 0px 70px 20px 20px;
-    width: 60%;
-    font-size: 22px;
-}
+    .homeLeft {
+        background: #F5F5FF;
+        margin: 125px 50px 125px 50px;
+        border-radius: 16px;
+        align-items: normal;
+        text-align: center;
+        font-family: "jersey";
+    }
 
-.home_welcome {
-    font-size: 40px;
-}
+    .homeLeftLeft {
+        padding: 0px;
+        font-size: 30px;
+    }
 
-.resume_button {
-    background: #FA8500;
-    color: #F5F5FF;
-    text-decoration: none;
-    text-align: center;
-    display: inline-block;
-    font-size: 22px;
-    padding: 10px 20px;
-    margin: 10px 2px; 
-    cursor: pointer;
-    border-radius: 16px;
+    .homeLeftRight {
+        margin: 0px 20px 20px 20px;
+        font-size: 22px;
+    }
 
-    -webkit-transition: background-color 0.5s;
-    -moz-transition:    background-color 0.5s;
-    -ms-transition:     background-color 0.5s;
-    -o-transition:      background-color 0.5s;
-    transition:         background-color 0.5s;
-}
+    .home_welcome {
+        font-size: 40px;
+    }
 
-.resume_button:hover {
-    background: #162C46;
-}
+    .resume_button {
+        background: #FA8500;
+        color: #F5F5FF;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        font-size: 22px;
+        padding: 10px 20px;
+        margin: 10px 2px; 
+        cursor: pointer;
+        border-radius: 16px;
 
-.brock_image {
-    align-items: center;
-}
+        -webkit-transition: background-color 0.5s;
+        -moz-transition:    background-color 0.5s;
+        -ms-transition:     background-color 0.5s;
+        -o-transition:      background-color 0.5s;
+        transition:         background-color 0.5s;
+    }
 
-.homeRight {
-    background: #162C46;
-    flex: 1;
-}
-
-.projects_base {
-    padding: auto;
-    background: #162C46;
-    flex: 1;
-    align-items: center;
-}
-
-.project_darker {
-    width: 100%;
-    background: #85BDDB;
-    display: flex;
-    justify-content: center;
-}
-
-.project_lighter {
-    width: 100%;
-    background: #CCEAFF;
-    display: flex;
-    justify-content: center;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-.project_images {
-    width: 20%;
-    height: 100%;
-}
-
-.bottom_bar {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  padding: 15px 0;
-  text-align: center; 
-  z-index: 1000;
-}
-
-.project_text {
-    width: 486.04px;
-}
-
-.vid {
-    padding-left: 100px;
-    padding-top: 10px;
-}
-
-.frame_container {
-    width: 100%;
-}
-
-.resume_frame {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 1000px;
-    width: 40%;
-}
-
-.bar {
-    text-align: center;
-    font-family: "jersey";
-    font-size: 50px;
-    background: #CCEAFF;
+    .resume_button:hover {
+        background: #162C46;
+    }
 }
