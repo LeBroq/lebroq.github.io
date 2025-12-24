@@ -264,7 +264,7 @@ body{
 
     .project_text {
         width: 100%;
-        font-size: 125%;
+        font-size: 120%;
     }
 
     .vid {
@@ -336,7 +336,7 @@ body{
         margin-left: auto;
         margin-right: auto;
         height: 1000px;
-        width: 400px;
+        width: 800px;
     }
 
     .frame_container {
