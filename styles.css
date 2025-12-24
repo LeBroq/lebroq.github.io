@@ -264,7 +264,7 @@ body{
 
     .project_text {
         width: 100%;
-        font-size: 120%;
+        font-size: 110%;
     }
 
     .vid {
@@ -315,8 +315,8 @@ body{
     }
 
     .iframe_size {
-        width: 896px;
-        height: 504px;
+        width: 1344px;
+        height: 756px;
         border-radius: 20px;
     }
 
