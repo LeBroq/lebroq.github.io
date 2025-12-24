@@ -21,6 +21,7 @@ body{
     align-items: center;
     gap: 50px;
     font-size: 40px;
+    font-size: 400%;
 }
 
 .banner_item {
@@ -328,5 +329,17 @@ body{
         gap: 50px;
         font-size: 40px;
         font-size: 400%;
+    }
+
+    .resume_frame {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 1000px;
+        width: 400px;
+    }
+
+    .frame_container {
+        width: 100%;
     }
 }
