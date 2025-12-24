@@ -215,7 +215,7 @@ body{
     .homeLeftRight {
         margin: 0px 20px 20px 20px;
         font-size: 22px;
-        font-size: 200%;
+        font-size: 300%;
     }
 
     .home_welcome {
@@ -229,6 +229,7 @@ body{
         text-align: center;
         display: inline-block;
         font-size: 22px;
+        font-size: 120%;
         padding: 10px 20px;
         margin: 10px 2px; 
         cursor: pointer;
@@ -260,7 +261,7 @@ body{
 
     .project_text {
         width: 100%;
-        font-size: 150%;
+        font-size: 200%;
     }
 
     .vid {
