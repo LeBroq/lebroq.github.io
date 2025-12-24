@@ -5,6 +5,7 @@
 
 body{
     height: 100dvh;
+    background: #162C46;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -220,6 +221,7 @@ body{
 
     .home_welcome {
         font-size: 40px;
+        font-size: 150%;
     }
 
     .resume_button {
@@ -315,5 +317,16 @@ body{
         width: 896px;
         height: 504px;
         border-radius: 20px;
+    }
+
+    .banner {
+        display: flex;
+        width: 100%;
+        background: #FA8500;
+        height: auto;
+        align-items: center;
+        gap: 50px;
+        font-size: 40px;
+        font-size: 400%;
     }
 }
