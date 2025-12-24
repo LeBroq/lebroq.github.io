@@ -14,12 +14,12 @@ body{
 
 .banner {
     display: flex;
+    width: 100%;
     background: #FA8500;
     height: auto;
     align-items: center;
     gap: 50px;
     font-size: 40px;
-    padding-left: 50px;
 }
 
 .banner_item {
@@ -33,9 +33,8 @@ body{
     font-family: "jersey";
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 992px) {
     .base {
-        padding: auto;
         background: #162C46;
         display: flex;
         flex: 1;
@@ -126,7 +125,7 @@ body{
     }
 
     .project_images {
-        width: 20%;
+        width: 40%;
         height: 100%;
     }
 
@@ -142,12 +141,13 @@ body{
     }
 
     .project_text {
-        width: 486.04px;
+        margin-left: 10%;
     }
 
     .vid {
-        padding-left: 100px;
         padding-top: 10px;
+        width: 30%;
+        margin-left: 10%;
     }
 
     .frame_container {
@@ -167,13 +167,18 @@ body{
         font-family: "jersey";
         font-size: 50px;
         background: #CCEAFF;
+        width: 100%;
+    }
+
+    .contact_information {
+        text-align: center;
+        font-family: "jersey";
     }
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 992px) {
     .base {
-        width: 100%;
-        background-color: red;
+        background: #162C46;
         padding: none;
         flex: none;
     }
@@ -226,5 +231,69 @@ body{
 
     .resume_button:hover {
         background: #162C46;
+    }
+
+    .contact_information {
+        text-align: center;
+        font-family: "jersey";
+        padding: 0px 20px 20px 20px;
+    }
+
+    .bar {
+        text-align: center;
+        font-family: "jersey";
+        font-size: 50px;
+        background: #CCEAFF;
+    }
+
+    .project_text {
+        width: 100%;
+    }
+
+    .vid {
+        padding-left: 100px;
+        padding-top: 10px;
+    }
+
+    .frame_container {
+        width: 100%;
+    }
+
+    .projects_base {
+        padding: auto;
+        background: #162C46;
+        flex: 1;
+        align-items: center;
+        width: 100%;
+    }
+
+    .project_darker {
+        width: 100%;
+        text-align: center;
+        background: #85BDDB;
+        justify-content: center;
+    }
+
+    .project_lighter {
+        width: 100%;
+        background: #CCEAFF;
+        text-align: center;
+        justify-content: center;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    .project_images {
+        align-items: center;
+        height: 100%;
+    }
+
+    .bar {
+        text-align: center;
+        font-family: "jersey";
+        background: #CCEAFF;
+        width: 100%;
     }
 }
