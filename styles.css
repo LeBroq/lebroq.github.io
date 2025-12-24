@@ -41,7 +41,7 @@ body{
         display: flex;
         flex: 1;
     }
-    
+
     pre {
         white-space: pre-wrap;
         overflow-wrap: break-word;
@@ -114,7 +114,6 @@ body{
         padding: auto;
         background: #162C46;
         flex: 1;
-        align-items: center;
     }
 
     .project_darker {
@@ -135,11 +134,6 @@ body{
         padding-left: 20px;
     }
 
-    .project_images {
-        width: 40%;
-        height: 100%;
-    }
-
     .bottom_bar {
         position: fixed;
         bottom: 0;
@@ -153,6 +147,12 @@ body{
 
     .project_text {
         margin-left: 10%;
+        width: 50%;
+    }
+
+    .project_images {
+        height: 100%;
+        width: 50%;
     }
 
     .vid {
