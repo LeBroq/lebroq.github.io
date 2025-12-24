@@ -348,6 +348,12 @@ body{
         width: 100%;
     }
 
+    .image_size {
+        width: 896px;
+        height: 504px;
+        border-radius: 20px;
+    }
+
     pre {
         white-space: pre-wrap;
         overflow-wrap: break-word;
