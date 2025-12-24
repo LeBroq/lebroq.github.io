@@ -41,6 +41,11 @@ body{
         display: flex;
         flex: 1;
     }
+    
+    pre {
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+    }
 
     .homeLeft {
         background: #F5F5FF;
@@ -264,7 +269,7 @@ body{
 
     .project_text {
         width: 100%;
-        font-size: 110%;
+        font-size: 200%;
     }
 
     .vid {
@@ -341,5 +346,10 @@ body{
 
     .frame_container {
         width: 100%;
+    }
+
+    pre {
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
     }
 }
