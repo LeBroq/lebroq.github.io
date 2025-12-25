@@ -181,6 +181,12 @@ body{
         width: 100%;
     }
 
+    .image_size {
+        width: 448px;
+        height: 252px;
+        border-radius: 20px;
+    }
+
     .contact_information {
         text-align: center;
         font-family: "jersey";
@@ -190,6 +196,22 @@ body{
         width: 448px;
         height: 252px;
         border-radius: 20px;
+    }
+
+    .project_sub_info {
+        text-align: left;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: monospace;
+        font-size: 13px;
+    }
+
+    .sizeandstatus {
+        width: 50%;
+    }
+
+    .tools {
+        width: 50%;
     }
 }
 
@@ -290,8 +312,8 @@ body{
 
     .project_darker {
         width: 100%;
-        text-align: center;
         background: #85BDDB;
+        text-align: center;
         justify-content: center;
     }
 
@@ -358,4 +380,22 @@ body{
         white-space: pre-wrap;
         overflow-wrap: break-word;
     }
+
+    .project_sub_info {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        font-family: monospace;
+        font-size: 26px;
+    }
+
+    .sizeandstatus {
+        width: 50%;
+        padding-left: 10%;
+    }
+
+    .tools {
+        width: 50%;
+    }
+    
 }
