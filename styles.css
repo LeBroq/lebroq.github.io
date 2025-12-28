@@ -148,6 +148,7 @@ body{
     .project_text {
         margin-left: 10%;
         width: 50%;
+        font-size: 150%;
     }
 
     .project_images {
@@ -208,10 +209,12 @@ body{
 
     .sizeandstatus {
         width: 50%;
+        font-size: 150%;
     }
 
     .tools {
         width: 50%;
+        font-size: 150%;
     }
 }
 
